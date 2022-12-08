@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Sistema de Vendas</h1>
+    <form action="#" method="GET">
+        <input type="hidden" value="Saymon" name="campoOculto1">
+        <div>
+            <label for="produto">Produto</label>
+            <input type="text" id="produto" name="produto" placeholder="Nome do produto" required>
+            <br>
+
+            <label for="produtos_list">Lista de produtos</label>
+            <select name="produtos_list" id="produtos_list">
+                <option value="1">Caderno</option>
+                <option value="2">Borracha</option>
+                <option value="3">Régua</option>
+            </select>
+
+            <label for="qtd">Quantidade</label>
+            <input type="number" name="qtd" id="qtd">
+            <br>
+            <label for="dataCompra">Data da compra</label>
+            <input type="date" name="dataCompra" id="dataCompra">
+            <fieldset>
+                <legend>Tipo de compra</legend>
+                <div>
+                    <input type="radio" id="varejo" name="tipoCompra" value="V">
+                    <label for="varejo">Varejo</label>
+                </div>
+                <div>
+                    <input type="radio" id="atacado" name="tipoCompra" value="A">
+                    <label for="atacado">Atacado</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Meios de Pagamento</legend>
+                <div>
+                    <input type="checkbox" name="tipoPagamento" id="dinheiro" value="DINHEIRO">
+                    <label for="dinheiro">Dinheiro</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tipoPagamento" id="cartao" value="DINHEIRO">
+                    <label for="cartao">Cartão</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="tipoPagamento" id="cheque" value="DINHEIRO">
+                    <label for="ccheque">Cheque</label>
+                </div>
+            </fieldset>
+
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+
+            <br>
+            <label for="cor">Escola uma cor</label>
+            <input type="color" id="cor" name="cor">
+
+            <hr>
+
+            <input type="file" accept="image/*" name="upImage">
+
+            <br>
+
+            <label for="comentario"> Deixe um comentário</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>
