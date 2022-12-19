@@ -7,6 +7,7 @@
         -NOME
         -IDADE
         -CIDADE
+        -NASCIMENTO
         
     
 
