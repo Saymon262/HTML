@@ -6,6 +6,7 @@
         Formulário de cadastro
         -NOME
         -IDADE
+        -CIDADE
         
     
 
