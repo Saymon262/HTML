@@ -21,10 +21,9 @@
         -Data da compra
         -Forma de pagamento
         -Email
-        -
+        -Feedback
         
-        
-    
+       
 
 ------------------------------------------------
 
